@@ -1,0 +1,8 @@
+#!/bin/sh
+# A publication requires explicit approval of the exact destination URL.
+approved=$(git config --get publication.approvedRemote || true)
+if [ -z "$approved" ] || [ "$2" != "$approved" ]; then
+ echo 'Push blocked: owner has not approved this exact publication destination.' >&2
+ exit 1
+fi
+python3 tools/audit_export.py || exit 1

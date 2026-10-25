@@ -1,0 +1,14 @@
+# Real deployment configuration, credentials and generated files are not exports.
+config.json
+*.key
+*.pem
+*.log
+*.pid
+.env
+usage-native.json
+dist/
+build/
+__pycache__/
+agent/jarvis-native
+airplay/group-volume/ap2-group-volume
+airplay/group-volume/test-group-volume

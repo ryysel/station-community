@@ -1,0 +1,22 @@
+{
+  "provider": "gemini",
+  "api_key": "",
+  "chat_model": "YOUR_MODEL_ID",
+  "chat_fallback": "",
+  "base_url": "https://api.openai.com/v1",
+  "tts_provider": "gtts",
+  "wake_words": ["агент"],
+  "follow_up_seconds": 3,
+  "cloud_wait_ms": 1200,
+  "station_id": "station-a",
+  "station_priority": 10,
+  "peers": [],
+  "arb_port": 9876,
+  "daily_turn_limit": 20,
+  "time_offset_hours": 0,
+  "weather_enabled": false,
+  "city": "",
+  "latitude": 0,
+  "longitude": 0,
+  "system_prompt": "Ты голосовой помощник. Отвечай кратко и не выдумывай факты."
+}

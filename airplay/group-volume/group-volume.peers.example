@@ -1,0 +1,4 @@
+# Documentation-only TEST-NET addresses. Replace with your explicit peer list.
+# Every device's own address must be listed, too. Maximum: 16 peers.
+192.0.2.10
+192.0.2.20
